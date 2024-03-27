@@ -349,8 +349,14 @@ margin-bottom: 4px;
 .jsdivv {
     margin-bottom: 8px;
 }
+.jsdivv4 {
+    margin-bottom: 16px;
+}
 .jsdivdiv {
     position: relative; 
+}
+.lastlabel {
+    margin-bottom: 24px; 
 }
 .jsinputclas {
 width: 100%;
@@ -362,7 +368,7 @@ padding-left: 38px;
 outline: transparent; 
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.jsinputclas:hover {
+.jsinputclas:focus {
 border-color: #4D5AE5;
 } 
 .jssvggg {
@@ -372,7 +378,7 @@ top: 50%;
 transform: translateY(-50%); 
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.jssvggg:hover {
+.jssvggg:focus{
     fill: #4D5AE5;
 }
 .jsakapitom {
@@ -743,6 +749,7 @@ color: #2E2F42;
     gap: 24px,;
 }
 .formulainput {
+    gap: 24px;
     width: 264px;
     height: 40px;
     border: 1px solid #ffffff;
@@ -799,6 +806,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .labeljsjs {
+display: block; 
 font-size: 12px; 
 line-height: 1.17;
 letter-spacing: 0.04em;
