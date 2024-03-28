@@ -745,9 +745,10 @@ color: #2E2F42;
 }
 .formulaform {
     display: flex;
+    gap: 24px;
 }
 .formulalabel {
-    gap: 24px,;
+    gap: 24px;
 }
 .formulainput {
     gap: 24px;
