@@ -349,14 +349,14 @@ margin-bottom: 4px;
 .jsdivv {
     margin-bottom: 8px;
 }
-.jsdivv4 {
+.jsdivvvv {
     margin-bottom: 16px;
 }
 .jsinput::selection .spanjsjs {
     background-color: #404bbf;
     border: none;
     fill:#F4F4FD;
-    
+
 }
 .jsdivdiv {
     position: relative; 
@@ -400,7 +400,7 @@ letter-spacing: 0.02em;
 color: #2E2F42;
  margin-bottom: 16px; 
 }
-.cssjs2 {
+.cssjssss {
     position: absolute;
     top: 50%;
     left: 50%; 
@@ -429,14 +429,11 @@ color: #2E2F42;
     cursor: pointer; 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.buttonjs:hover {
+.buttonjs:hover .buttonjs:focus {
     background-color: #404bbf;
     border: none;
 }
-.buttonjs:focus {
-    background-color: #404bbf;
-    border: none;
-}
+
 .buttonjs:hover .jssvg {
     fill: #ffffff;
 }
