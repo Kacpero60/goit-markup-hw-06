@@ -326,8 +326,6 @@ body {
 }
 .is-open {
     position: absolute;
-    width: 1px;
-    height: 1px;
     margin: 1px;
     border: 0;
     white-space: nowrap;
