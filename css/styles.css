@@ -20,12 +20,9 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     
 }
-.fourlink:hover {
+.fourlink:hover .fourlink:focus {
     background-color: #404bbf;
-}
-.fourlink:focus {
-    background-color: #404bbf;
-}
+} 
 .sectionfourlist {
     display: flex;
     justify-content: center;
@@ -113,13 +110,9 @@ img {
     justify-content: center; 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footlinks:hover{
+.footlinks:hover .footlinks:focus{
     background-color: #31d0aa; 
 }
-.footlinks:focus{
-    background-color: #31d0aa;
-}
-
 .spanone {
     color:#2e2f42;
 
@@ -135,10 +128,7 @@ img {
     padding: 24px 0;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.firstlink:focus {
-    color: #404bbf;
-}
-.firstlink:hover {
+.firstlink:focus .firstlink:hover {
     color: #404bbf;
 }
 .current {
@@ -246,15 +236,9 @@ body {
     border-radius: 4px; 
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.przycisk:hover {
+.przycisk:hover .przycisk:focus  {
     background-color: #404BBF;
     color:#FFFFFF;
-    border: 1px solid transparent;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-.przycisk:focus {
-    background-color: #404BBF;
-    color: #FFFFFF;
     border: 1px solid transparent;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -441,20 +425,14 @@ color: #2E2F42;
     border: none;
 }
 
-.buttonjs:hover .jssvg {
-    fill: #ffffff;
-}
-.buttonjs:focus .jssvg {
+.buttonjs:hover .jssvg .buttonjs:focus .jssvg {
     fill: #ffffff;
 }
 
 .jssvg {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.jssvg:hover {
-    fill: #ffffff;
-}
-.jssvg:focus {
+.jssvg:hover .jssvg:focus {
     fill: #ffffff;
 }
 .buttonone {
@@ -475,12 +453,10 @@ color: #2E2F42;
     margin:auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.buttonone:focus {
+.buttonone:focus .buttonone:hover {
     background-color: #404BBF;
 }
-.buttonone:hover {
-    background-color: #404BBF;
-}
+
 .sectiontwo {
     font-weight: 500;
     font-size: 20px;
@@ -567,10 +543,7 @@ color: #2E2F42;
      letter-spacing: 0.02em;
       color: #434455
 }
-.info:hover {
-    color: #404BBF
-}
-.info:focus {
+.info:hover .info:focus {
     color: #404BBF
 }
 .firstpoint {
@@ -670,13 +643,9 @@ color: #2E2F42;
     justify-content: center; 
     color: #8e8f99;
 }
-.listfive:focus{
+.listfive:focus .listfive:hover{
     border-color: #404bbf; 
     color: #404bbf; 
-}
-.listfive:hover {
-    border-color: #404bbf; 
-    color: #404bbf;
 }
 .asecfive {
     width: 100%;
@@ -689,11 +658,7 @@ color: #2E2F42;
     color: #8e8f99; 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.asecfive:focus {
-    border-color: #404bbf; 
-    color: #404bbf;
-}
-.asecfive:hover {
+.asecfive:focus .asecfive:hover {
     border-color: #404bbf; 
     color: #404bbf;
 }
@@ -737,14 +702,8 @@ color: #2E2F42;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .omodalne {
-
-
-
 }
-.omodalne:hover {
-    fill: #ffffff;
-}
-.omodalne:focus {
+.omodalne:hover .omodalne:focus{
     fill: #ffffff;
 }
 .formula {
@@ -942,15 +901,9 @@ body {
     border: 1px solid #e7e9fc;
     border-radius: 4px; 
 }
-.przycisk:hover {
+.przycisk:hover .przycisk:focus  {
     background-color: #404BBF;
     color:#FFFFFF;
-    border: 1px solid transparent;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-.przycisk:focus {
-    background-color: #404BBF;
-    color: #FFFFFF;
     border: 1px solid transparent;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -1065,10 +1018,7 @@ body {
     margin:auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.buttonone:focus {
-    background-color: #404BBF;
-}
-.buttonone:hover {
+.buttonone:focus .buttonone:hover {
     background-color: #404BBF;
 }
 .sectiontwo {
@@ -1159,10 +1109,7 @@ body {
     color: #434455;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
-.info:hover {
-    color: #404BBF
-}
-.info:focus {
+.info:hover .info:focus {
     color: #404BBF
 }
 .firstpoint {
@@ -1286,16 +1233,10 @@ body {
     justify-content: center; 
     color: #8e8f99; 
 }
-.asecfive:focus {
+.asecfive:focus .asecfive:hover {
     border-color: #404bbf; 
     color: #404bbf;
 }
-
-.asecfive:hover svg {
-    fill: #404bbf; 
-    border-color: #404bbf; 
-}
-
 .fivesvgggg {
     fill: currentColor;
 }
