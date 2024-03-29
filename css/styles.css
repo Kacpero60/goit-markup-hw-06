@@ -334,9 +334,16 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+    visibility: hidden;
+    opacity: 0;
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 24px 24px 24px;
+}
+.is-hidden {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: none;
 }
 .labeljs {
 font-size: 12px; 
@@ -440,11 +447,7 @@ color: #2E2F42;
 .buttonjs:focus .jssvg {
     fill: #ffffff;
 }
-.is-hidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-}
+
 .jssvg {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
