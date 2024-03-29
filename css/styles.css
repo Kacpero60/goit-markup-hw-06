@@ -372,6 +372,9 @@ line-height: 2;
 .jsinputclas:focus {
 border-color: #4D5AE5;
 } 
+.jsinputclas:focus .jssvggg {
+    fill: #4D5AE5; 
+}
 .jssvggg {
 position: absolute;
 left: 16px; 
