@@ -352,6 +352,12 @@ margin-bottom: 4px;
 .jsdivv4 {
     margin-bottom: 16px;
 }
+.jsinput::selection .spanjsjs {
+    background-color: #404bbf;
+    border: none;
+    fill:#F4F4FD;
+    
+}
 .jsdivdiv {
     position: relative; 
 }
