@@ -330,8 +330,8 @@ body {
     border: 0;
     white-space: nowrap;
     overflow: hidden;
-    opacity: 1;
     visibility: visible;
+    opacity: 1;
 }
 .labeljs {
 font-size: 12px; 
