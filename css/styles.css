@@ -420,11 +420,6 @@ color: #2E2F42;
     cursor: pointer; 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.is-hidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-}
 .buttonjs:hover {
     background-color: #404bbf;
     border: none;
@@ -432,6 +427,11 @@ color: #2E2F42;
 .buttonjs:focus {
     background-color: #404bbf;
     border: none;
+}
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
 }
 .jssvg {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
