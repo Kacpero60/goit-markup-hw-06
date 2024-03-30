@@ -325,7 +325,6 @@ body {
     padding: 72px 24px 24px 24px;
 }
 .is-open {
-    position: absolute;
     margin: 1px;
     border: 0;
     white-space: nowrap;
@@ -429,10 +428,9 @@ color: #2E2F42;
     border: none;
 }
 
-.buttonjs:hover .jssvg .buttonjs:focus .jssvg {
+.buttonjs:hover + .jssvg .buttonjs:focus + .jssvg {
     fill: #ffffff;
 }
-
 .jssvg {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
@@ -783,7 +781,13 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-color: #4D5AE5; 
 }
 .jsinput {
-
+background-color: #404bbf;
+border: none;
+}
+.jsinput:checked {
+    background-color: #404bbf;
+    border: none;
+    fill:#F4F4FD; 
 }
 .labeljsjs {
 display: block; 
@@ -829,6 +833,7 @@ cursor: pointer;
 border-radius: 4px; 
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
+
 .menu {
     color: #404bbf; 
 }
