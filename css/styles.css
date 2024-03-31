@@ -801,7 +801,7 @@ justify-content: center;
 fill: transparent;
 }
 .lastlabel input[type="checkbox"]:checked + .labeljsjs .spanjsjs {
-    background-color: var(#404bbf);
+    background-color: #404bbf;
 }
 .lastlabel input[type="checkbox"]:checked + .labeljsjs .spanjsjs {
     border: none;
