@@ -804,7 +804,7 @@ fill: transparent;
 .lastlabel input[type="checkbox"]:checked + .labeljsjs .spanjsjs {
     background-color: #404bbf;
     border: none;
-    fill: var(--#F4F4FD);
+    fill: #F4F4FD;
 }
 .jsinputclas:focus + .jssvggg {
     fill: #4D5AE5;
