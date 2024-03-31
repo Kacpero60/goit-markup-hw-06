@@ -806,6 +806,15 @@ align-items: center;
 justify-content: center; 
 fill: transparent;
 }
+.lastlabel input[type="checkbox"]:checked + .labeljsjs .spanjsjs {
+    background-color: var(#404bbf);
+  }
+.lastlabel input[type="checkbox"]:checked + .labeljsjs .spanjsjs {
+    border: none;
+  }
+.lastlabel input[type="checkbox"]:checked + .labeljsjs .spanjsjs .svgjsss {
+    fill: var(--#F4F4FD);
+  }
 .svgjsss {
 
 }
