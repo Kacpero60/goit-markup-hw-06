@@ -808,13 +808,19 @@ fill: transparent;
 }
 .lastlabel input[type="checkbox"]:checked + .labeljsjs .spanjsjs {
     background-color: var(#404bbf);
-  }
+}
 .lastlabel input[type="checkbox"]:checked + .labeljsjs .spanjsjs {
     border: none;
-  }
+}
 .lastlabel input[type="checkbox"]:checked + .labeljsjs .spanjsjs .svgjsss {
     fill: var(--#F4F4FD);
-  }
+}
+.jsinputclas:focus + .jssvggg {
+    fill: #4D5AE5;
+}
+.jsinputclas:not(:focus) + .jssvggg {
+fill: none;
+} 
 .svgjsss {
 
 }
